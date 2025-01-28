@@ -68,4 +68,5 @@ plt.ylabel("Weeks")
 y_ticks = np.arange(0, theWeeks.max() + 50, 50)  # Set y-axis ticks to go by 50's
 plt.yticks(y_ticks) # Makes it more readable
 plt.grid(alpha=0.3)
+plt.tight_layout()
 plt.show()
